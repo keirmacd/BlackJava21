@@ -1,12 +1,12 @@
-import.java.util.ArrayList
+import java.util.ArrayList;
 
-ArrayList(int)
-
+ArrayList<int> cards;
 
 public class Deck{
-  cards = new ArrayList<int>();
+  ArrayList<int> cards;
 
-
-
-
+}
+  public Deck(){
+cards = new cards "2"
+   }
 }
