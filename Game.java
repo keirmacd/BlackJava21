@@ -3,5 +3,9 @@ public class Game{
  private Player player2;
 }
 
-public Player1
-hand = player.hand
+public Player1{
+hand = player1.hand
+}
+public Player2{
+  hand = player2.hand
+}
