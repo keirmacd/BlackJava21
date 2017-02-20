@@ -10,6 +10,11 @@ public Player2{
 }
 
 public Iswon{
-player1.hand >= player2.hand
+if player1.hand >= player2.hand;
+  return "player1 wins";
+else 
+  if player2.hand >= player1.hand;
+    return "player2 wins";
+    else if player1.hand == player2.hand;
 }
 }
