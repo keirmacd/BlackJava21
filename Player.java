@@ -1,12 +1,17 @@
 public class Player{
 
-  Player player1
-  Player player2
+private String name;
+private Hand hand;
 
 
-  public Player(String player1) {
-    this.Player = player1;
+  public Player(String name) {
+    this.name = name;
+    this.hand = new Hand();
   }
-  public hand
-
+  public void takeCard(Card card){
+    hand.takeCard(card);
+  }
+  public Hand getHand(){
+  return this.hand; 
+}
 }
